@@ -4,7 +4,7 @@ colnames(my_data)
 my_data[1:2,]
 nrow(my_data)
 my_data[152:153,]
-ozone<-my_data[Ozone]
+ozone<-my_data[,1]
 ozone
 ozone[47]
 na_ozone <- is.na(ozone)
